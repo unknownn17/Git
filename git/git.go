@@ -60,6 +60,4 @@ func GetUserName() {
 		fmt.Println("Error pushing changes to Github:", err)
 		return
 	}
-
-	fmt.Println("All tasks completed successfully.")
 }
