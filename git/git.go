@@ -48,7 +48,7 @@ func GetUserName() {
 	}
 
 	if _, err := exec.Command("git", "checkout", "feature/add-username").Output(); err != nil {
-		fmt.Println("Error switching to feature/add-username branch:", err)
+	//	fmt.Println("Error switching to feature/add-username branch:", err)
 		return
 	}
 
