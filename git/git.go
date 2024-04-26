@@ -56,7 +56,7 @@ func GetUserName() {
 	// Check if the feature/add-username branch exists
 	branchExists := branchExists("feature/add-username")
 	if !branchExists {
-		fmt.Println("Error: feature/add-username branch does not exist")
+		//fmt.Println("Error: feature/add-username branch does not exist")
 		return
 	}
 
